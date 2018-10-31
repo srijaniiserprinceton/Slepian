@@ -3,7 +3,7 @@
 %
 %Last modified by sbdas-at-princeton.edu, 29/10/2018
 
-if 1
+if exist('mag_256_trimmed','var')
     load mag_256_trimmed.in;
 else
     fid = fopen('mag_256.in', 'r') ;              % Open source file.
